@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "scripts": {
     "dev": "vite",
-    "build": "cross-env NODE_ENV=production vite build"
+    "build": "cross-env NODE_ENV=production vite build",
+    "clean": "rm -rf dist"
   },
   "dependencies": {
     "@pika/react": "^16.13.1",
