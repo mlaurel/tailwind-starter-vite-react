@@ -1,0 +1,26 @@
+[
+  {
+    "id": "0001",
+    "title": "Project 1",
+    "tagline": "Short line description",
+    "description": "Long worded description of project",
+    "hero": "https://imgix.com",
+    "companies": ["company-a", "company-b"]
+  },
+  {
+    "id": "0002",
+    "title": "Project 2",
+    "tagline": "Short line description",
+    "description": "Long worded description of project",
+    "hero": "https://imgix.com",
+    "companies": ["company-a"]
+  },
+  {
+    "id": "0003",
+    "title": "Project 3",
+    "tagline": "Short line description",
+    "description": "Long worded description of project",
+    "hero": "https://imgix.com",
+    "companies": ["company-b"]
+  }
+]
