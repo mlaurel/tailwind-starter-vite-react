@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect, useRef } from 'react'
 import { Link, useLocation } from 'react-router-dom'
 
 const Nav = () => {
@@ -15,8 +15,32 @@ const Nav = () => {
     const activeClass = 'text-white bg-gray-900'
     const inactiveClass = 'text-gray-300 hover:text-white hover:bg-gray-700'
 
+    const handleClick = (e) => {
+        if (node.current.contains(e.target)) {
+            // inside click
+            return
+        }
+        // outside click
+        setShowProfileMenu(false)
+        setShowMenu(false)
+    }
+
+    const handleChange = (selectedValue) => {
+        onChange(selectedValue)
+        setShowProfileMenu(false)
+        setShowMenu(false)
+    }
+
+    useEffect(() => {
+        document.addEventListener('mousedown', handleClick)
+
+        return () => {
+            document.removeEventListener('mousedown', handleClick)
+        }
+    }, [])
+
     return (
-        <nav className="bg-gray-800">
+        <nav ref={node} className="bg-gray-800">
             <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
                 <div className="flex items-center justify-between h-16">
                     <div className="flex items-center">
