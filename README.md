@@ -16,7 +16,7 @@ Website template using next generation frontend tooling with [ViteJS](https://vi
 
 ## Getting Started
 
-### 1. Click the <span class="button">Use This Template</span> button in GitHub, or clone the repository using:
+### 1. Click the `Use This Template` button in GitHub, or clone the repository using:
 
 ```sh
 git clone https://github.com/mlaurel/vite-starter-react-tailwind.git website-name
@@ -69,16 +69,3 @@ yarn dev
 MIT
 
 See `LICENSE` for more information.
-
-
-<style>
-.button {
-    border-color:green; 
-    background-color:green;
-    color:white;
-    border-radius:.25em;
-    margin:.25em 0;
-    padding:.25em .75em;
-    font-size:.75em;
-}
-</style>
