@@ -1,4 +1,4 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/01f1abc2-7fe6-481a-970a-250f9da9b8fc/deploy-status)](https://app.netlify.com/sites/serverless-starter-eleventy-tailwind/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/9b3d4246-a6c7-4248-b6d7-6fa694089d57/deploy-status)](https://app.netlify.com/sites/vite-starter-react-tailwind/deploys)
 
 # Vite Starter Template
 
