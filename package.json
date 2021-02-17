@@ -1,5 +1,5 @@
 {
-  "name": "vite-starter-react-tailwind",
+  "name": "tailwind-starter-vite-react",
   "version": "1.0.0",
   "scripts": {
     "dev": "vite",
